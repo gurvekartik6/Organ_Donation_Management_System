@@ -1,0 +1,140 @@
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.temp
+
+# Build directories
+target/
+build/
+out/
+bin/
+dist/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+build.gradle
+gradlew
+gradlew.bat
+
+# Spring Boot
+application-prod.properties
+application-production.properties
+application-dev.properties.local
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node.js / Frontend
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Frontend build
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/out/
+
+# Logs
+logs/
+*.log
+log/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.h2.db
+*.lock.db
+*.db.trace.db
+*.db.lock
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Secret keys and sensitive data
+*.p12
+*.pfx
+*.jks
+*.key
+*.pem
+application-secrets.yml
+secrets.properties
+
+# Docker
+*.pid
+docker-compose.override.yml
+docker-compose.prod.yml
+
+# Testing
+coverage/
+.nyc_output/
+test-results/
+jacoco.exec
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+
+# Heap dumps
+*.hprof
+*.heap
+
+# Spring Boot Actuator
+spring-boot-actuator-logview/
+
+# VS Code specific
+.vscode/launch.json
+.vscode/tasks.json
